@@ -1,0 +1,7 @@
+.header-container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    text-align: left;
+    padding-left: 2rem;
+}

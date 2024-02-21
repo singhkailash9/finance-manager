@@ -5,10 +5,10 @@ const Login = () => {
         e.preventDefault();
         console.log("Submitted")
     }
-    return <div className="login-form">
-        <form onSubmit={handleFormSubmit}>
+    return <div className="login-container">
+        <form onSubmit={handleFormSubmit} className="login-form">
             <p>Username: </p>
-            <input type="text" placeholder="Enter Name"/>
+            <input type="text" name="username" autoComplete="true" placeholder="Enter Name"/>
             <p>Password: </p>
             <input type="password" name="password" id="user-password" placeholder="Enter Password"/>
             <button type="submit">Login</button>

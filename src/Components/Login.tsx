@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/login.css"
 
 const Login = () => {
     const handleFormSubmit = (e: React.MouseEvent<HTMLFormElement>)=>{
@@ -11,7 +12,8 @@ const Login = () => {
             <input type="text" name="username" autoComplete="true" placeholder="Enter Name"/>
             <p>Password: </p>
             <input type="password" name="password" id="user-password" placeholder="Enter Password"/>
-            <button type="submit">Login</button>
+            <br />
+            <button type="submit" id="login-button">Login</button>
         </form>
     </div>
 }

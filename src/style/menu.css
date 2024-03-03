@@ -3,18 +3,26 @@
 }
 
 .menu-items {
-    padding: 1rem;
+    padding: 0.8rem;
     margin: 0.5rem;
     border: 1px solid green;
     border-radius: 5px;
 }
 
-.menu-items:hover {
+.menu-items a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu-items a:hover {
     cursor: pointer;
-    background-color: green;
+}
+
+.menu-items:hover {
+    background-color: rgb(41, 165, 41);
     color: white;
 }
 
 #logout:hover {
-    background-color: rgb(255, 45, 45);
+    background-color: rgb(247, 78, 78);
 }

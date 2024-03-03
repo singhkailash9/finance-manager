@@ -4,7 +4,9 @@
     /* margin-top: 20vh; */
     text-align: center;
     align-items: center;
+    /* justify-content: center; */
     flex: 1;
     height: 100vh;
     gap: 1em;
+    width: 100vw;
 }

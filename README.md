@@ -46,4 +46,11 @@ Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repository and create a pull request. You can also simply open an issue with the feature as tag.
 
+## License
+Distributed under the MIT License. See LICENSE for more information.
+
+## Project
+
 Project Link: https://github.com/singhkailash9/finance-manager
+
+<!-- Project API Repo: Under development -->

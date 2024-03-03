@@ -1,0 +1,20 @@
+#menu-list {
+    list-style-type: none;
+}
+
+.menu-items {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.menu-items:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+#logout:hover {
+    background-color: rgb(255, 45, 45);
+}

@@ -1,6 +1,9 @@
+import "../style/footer.css"
+
 const Footer = ()=> {
+    const year = new Date().getFullYear();
     return <div className="footer-container">
-        Footer
+        Copyright © {year}
     </div>
 }
 

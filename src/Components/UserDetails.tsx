@@ -35,6 +35,7 @@ const UserDetails = () => {
                         <th>Name</th>
                         <th>Amount</th>
                         <th>Type</th>
+                        <th>Date</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -43,12 +44,49 @@ const UserDetails = () => {
                         <td>Electricity Bill</td>
                         <td>900</td>
                         <td>Debit</td>
+                        <td>March 2024</td>
                         <td><button onClick={handleDelete}>Delete</button></td>
                     </tr>
                     <tr className="finance-table-data">
                         <td>Scholarship claim</td>
                         <td>7300</td>
                         <td>Credit</td>
+                        <td>January 2024</td>
+                        <td><button onClick={handleDelete}>Delete</button></td>
+                    </tr>
+                    <tr className="finance-table-data">
+                        <td>Stocks Investment</td>
+                        <td>2000</td>
+                        <td>Debit</td>
+                        <td>Feb 2024</td>
+                        <td><button onClick={handleDelete}>Delete</button></td>
+                    </tr>
+                    <tr className="finance-table-data">
+                        <td>Mobile recharge</td>
+                        <td>500</td>
+                        <td>Dedit</td>
+                        <td>March 2024</td>
+                        <td><button onClick={handleDelete}>Delete</button></td>
+                    </tr>
+                    <tr className="finance-table-data">
+                        <td>Internship</td>
+                        <td>2000</td>
+                        <td>Credit</td>
+                        <td>March 2024</td>
+                        <td><button onClick={handleDelete}>Delete</button></td>
+                    </tr>
+                    <tr className="finance-table-data">
+                        <td>Online course</td>
+                        <td>1000</td>
+                        <td>Credit</td>
+                        <td>March 2024</td>
+                        <td><button onClick={handleDelete}>Delete</button></td>
+                    </tr>
+                    <tr className="finance-table-data">
+                        <td>Gym subscription</td>
+                        <td>500</td>
+                        <td>Credit</td>
+                        <td>March 2024</td>
                         <td><button onClick={handleDelete}>Delete</button></td>
                     </tr>
                 </tbody>

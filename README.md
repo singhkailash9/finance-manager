@@ -39,7 +39,7 @@ After starting the application, navigate through the app using the menu to acces
 - **Login:** Secure user authentication.
 - **Profile:** Manage user information.
 - **Data Manager:** Enter and view financial transactions.
-- **Visualize:** Basic financial data visualization.
+- **Visualize:** Basic financial data visualization using Chart.js.
 
 ## Contributing
 Any contributions you make are **greatly appreciated**.
